@@ -1,6 +1,7 @@
 PROJECT STRUCTURE
 
 <!-- prettier-ignore -->
+```
 project
   |- src
       |- assets //เก็บไฟล์ รูปภาพ หรือ style ต่างๆ
@@ -25,3 +26,4 @@ project
           |- PlainLayout.vue // ไฟล์ layout เปล่าๆ ที่จะมีแค่ตัว view เท่านั้น เช่น หน้า login ที่ไม่ต้องมี header หรือ footer 
           |- MainLayout.vue // ไฟล์ layout หลักของ Project เช่นถ้า project หน้าหลักๆจะต้องมี header และ footer ก็จะมีการ import headerComponent และ footerComponent มาใช้ในนี้ และ ก็จะใช้ view เป็น content ตรงกลางเป็น
       |- views // เก็บไฟล์ของหน้าต่างๆ
+```
